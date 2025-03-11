@@ -1,0 +1,97 @@
+h3{
+    background-color: aliceblue !important;
+}
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}/* to apply on all*/
+
+h3 {
+    color: blueviolet;
+}
+
+h1 {
+    color: #b92b27;
+}
+
+#login {
+    background-color: white;
+    color: blueviolet;
+}
+
+#signup {
+    background-color: aqua;
+    color: #b92b27;
+}
+
+upvote {
+    background-color: greenyellow;
+}
+
+/*but this used for some particular buttons*/
+/*
+  button{
+    background-color: green;
+   }  this used for all the buttons present in the file*/
+/*desendent selector */
+.post a {
+    color: blueviolet;
+    background-color: rgb(63, 144, 171);
+}
+
+nav ul li a {
+    color: deeppink;
+}
+
+.upvote+button {
+    background-color: azure;
+    color: dodgerblue;
+}
+
+div>input {
+    background-color: darkgray;
+}
+
+input[type="text"]{
+    color: blue;
+    background-color: aliceblue;
+}
+input[type="password"]{
+    color: aquamarine;
+    background-color: aliceblue;
+}
+
+button:hover{
+    background-color:black ;
+    color: aliceblue;
+}
+h3:hover{
+    text-decoration:overline;
+}/*Select and style a link when you mouse over it:*/
+
+button:active{
+    background-color:hotpink;
+    color: black;
+}
+p:active{
+    font-weight: bold;
+    color:yellowgreen;
+}/*Select and style the active link*/
+
+input[type="radio"]:checked + label{
+color: #b92b27;
+font-weight: bolder;
+}/* This selector is used with radio buttons, checkbox and option elements. */
+
+.post:nth-of-type(2n){
+    background-color: blanchedalmond;
+}/*The :nth-of-type() CSS pseudo-class matches elements based on their position among siblings of the same type (tag name).*/
+
+h1::first-letter{
+    color:black
+}
+p::first-line{
+    color: rgb(66, 1, 1);
+}
+p::selection{
+    color: rgb(197, 243, 152);
+}

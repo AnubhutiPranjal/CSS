@@ -1,0 +1,37 @@
+h1{
+    text-align:center;
+   /* border:solid;*/
+    /* width: 50%; */
+    font-weight: bold;
+    /* text-decoration: underline; */
+    text-decoration:aqua underline;
+    letter-spacing: 3mm;
+    font-size :30px;
+    font-family:'Arial Narrow';
+}
+h3{
+    /* text-align: right; */
+    text-align: start;
+    font: weight 300px;
+    text-decoration:line-through ;
+    /* text-decoration:dotted line-through;  */
+    font-size :20px;
+    font-family: Impact;
+}
+p{
+    /* text-align: right; */
+    /* text-align: end; */
+    text-align: justify; /* The text-align: justify; value stretches the lines so that each line has equal width (like in newspapers and magazines). */
+    /* font-weight: bolder; */
+    font-weight:lighter;
+    text-decoration:overline ; 
+    /* text-decoration:wavy overline; */
+    /* line-height:2.cqb; */
+    line-height:2.5;/*;used for gap between lines */
+    font-size :15px;
+}
+
+
+a{
+    text-decoration: none;
+}

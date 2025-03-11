@@ -1,0 +1,42 @@
+div {
+    height: 100px;
+    width: 1000px;
+    background-color: pink;
+    /* border-width: 5px; */
+    /* border-style: groove; */
+    /* border-color: aqua; */
+    border: 2px solid blue;
+    border-radius: 15px;
+    padding-left:50px ;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    /* margin-bottom: 25px; */
+    /* margin: 1px 2px 3px; */
+    margin: 1px 2px 3px 4px;
+}
+
+
+h1 {
+    /* border-width: 2px; */
+    /* border-style: ridge; */
+    /* border-color: blueviolet; */
+    border:2px ridge darkblue ;
+    border-left-color: blueviolet ;
+    border-left-style: dotted;
+    border-right-color: brown;
+    border-right-style: groove;
+    border-top-color: black;
+    border-top-style: dashed;
+    border-bottom-color: cadetblue;
+    border-bottom-style: solid ;
+    /* border-radius:10%; */
+    /* border-radius: 10px; */
+    /* border-top-left-radius: 10px; */
+   margin: 0;
+}
+butoon{
+    border:2px solid black;
+    /* border-radius: 10px; */
+    padding:25px ;
+}
