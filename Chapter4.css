@@ -1,0 +1,15 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 3, 3, 0.5);
+    /* transition: 1s; */
+    margin: 0 auto; /*it will set in the middle*/
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 0.2s;
+}
+div:hover{
+     background-color: palevioletred;
+    /*border-radius: 20%; */
+    margin-top: 200px;
+
+}

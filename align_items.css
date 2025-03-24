@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: row; /* Main axis: horizontal */
+    align-items: stretch;/*Items stretch to fill the container.*/
+    /*align-items: center; /* Items aligned in the center of cross axis */
+    /*align-items: flex-start;/*Items align at the start of the cross axis.*/
+    /*align-items: flex-end;/*Items align at the end of the cross axis.*/
+    /*align-items: baseline;/*Items align based on their text baseline.*/
+    height: 200px;
+    border: 1px solid black;
+  }
+  

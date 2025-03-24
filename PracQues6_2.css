@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+}
+
+.header {
+    grid-column: span 12;
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation {
+    grid-column: span 12;
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar {
+    grid-column: span 3;
+    grid-row: span 9;
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+}
+
+.main {
+    grid-column: span 9;
+    grid-row: span 9;
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+}
+
+.ads {
+    grid-column: span 3;
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    grid-column: span 9;
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive Design: Stack elements when viewport is below 720px */
+@media (max-width: 720px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar, .main, .ads, .footer, .header, .navigation {
+        grid-column: span 12;  /* Each element will take full width */
+    }
+}

@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap */
+    /* align-content: center; Aligns rows in the center */
+    /* align-content: flex-start; Rows are packed at the start of the container. */
+    /* align-content: flex-end;Rows are packed at the end of the container. */
+    /* align-content: space-between;Rows are evenly spaced, with the first row at the start and the last at the end. */
+    /* align-content: space-around;Rows are evenly spaced with padding around them. */
+    /* align-content: space-evenly; Rows have equal spacing between and around them. */
+    align-content: stretch;/*Rows stretch to fill the container*/
+    height: 300px;
+    border: 1px solid black;
+  }
+  

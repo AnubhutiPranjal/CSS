@@ -1,0 +1,41 @@
+h1 {
+    background-color: chartreuse;
+    border: 2px solid black;
+}
+
+@media(width:400px){
+    h1{
+        background-color: rgba(254, 164, 112, 0.961);
+        color: rgb(12, 41, 66);
+    }
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(72, 22, 120);
+    }
+}
+
+@media (min-width:700px) {
+    h1 {
+        background-color: rgb(49, 174, 237);
+    }
+}
+
+@media (max-width:200px) {
+    h1 {
+        background-color: rgb(166, 126, 236);
+    }
+}
+
+@media (min-width:200px)and(max-width:300px) {
+    h1{
+        background-color: magenta;
+    }
+}
+
+@media (orientation:landscape) {
+    h1 {
+        background-color: rgb(94, 251, 251);
+        color: brown;
+    }
+}

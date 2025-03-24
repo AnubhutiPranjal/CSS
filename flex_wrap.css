@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    /*flex-wrap: wrap; /* Allows items to wrap onto new lines */
+    /*flex-wrap: nowrap;/*All flex items stay in a single line, even if they overflow.*/
+    flex-wrap: wrap-reverse;/*Items wrap onto the next line but in reverse order.*/
+    gap: 10px;
+  }
+  

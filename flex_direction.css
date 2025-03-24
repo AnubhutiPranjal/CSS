@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;  /* Align items horizontally */
+    align-items: center;  /* Align items vertically */
+    gap: 10px;  /* Space between items */
+    /* flex-direction: row;/*Items are placed from left to right*/
+     /* flex-direction: row-reverse;Items are placed from right to left. */
+    flex-direction: column;/*Items are placed from top to bottom*/
+    /*flex-direction:column-reverse;/*Items are placed from bottom to top.*/
+  }
+  
+  .item {
+     flex: 1; /* Each item takes equal space */
+  }
+  
